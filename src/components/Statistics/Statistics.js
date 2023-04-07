@@ -4,7 +4,6 @@ import propTypes from 'prop-types';
 
 export const Statistic = ({ percentage, total, good, neutral, bad }) => {
     const count = good + neutral + bad;
-
     return (
         <Section title="Statistic">
             {count > 0 ? (
